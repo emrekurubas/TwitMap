@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    </head>
+    <body>
+        <img src="./view/resources/world.jpg" usemap="#image-map">
+        <map name="image-map">
+            <area target="" class="us" alt="UnitedStates" title="UnitedStates" href="" coords="185,390,318,390,331,418,357,422,408,397,419,409,359,495,213,471,178,434" shape="poly">
+            <area target="" class="finland" alt="Finland" title="Finland" href="" coords="786,262,814,322" shape="rect">
+            <area target="" class="germany" alt="Germany" title="Germany" href="" coords="724,366,753,362,752,375,742,381,742,391,728,391,720,382" shape="poly">
+            <area target="" class="turkey" alt="Turkey" title="Turkey" href="" coords="802,426,878,450" shape="rect">
+            <area target="" class="france" alt="France" title="France" href="" coords="705,382,677,391,689,414,706,422,721,414,721,402,722,387" shape="poly">
+            <area target="" class="india" alt="India" title="India" href="" coords="1010,459,982,506,1014,576,1026,547,1060,516,1058,496" shape="poly">
+            <area target="" class="china" alt="China" title="China" href="" coords="1056,390,1002,437,1060,491,1095,483,1111,518,1132,512,1163,510,1197,480,1181,439,1233,417,1251,393,1208,362,1184,383,1160,410,1132,422,1096,417,1074,403" shape="poly">
+            <area target="" class="russia" alt="Russia" title="Russia" href="" coords="821,260,971,265,1124,197,1475,286,1342,374,1245,414,1232,361,1168,378,1070,373,973,354,889,382,887,411,850,406,833,367,810,346,825,302" shape="poly">
+            <area target="" class="australia" alt="Australia" title="Australia" href="" coords="1240,656,1163,701,1172,756,1239,741,1288,780,1308,769,1326,727,1305,693,1281,657,1275,685" shape="poly">
+            <area target="" class="southafrica" alt="SouthAfrica" title="SouthAfrica" href="" coords="765,729,773,759,804,752,828,724,822,701" shape="poly">
+            <area target="" class="brazil" alt="Brazil" title="Brazil" href="" coords="480,596,450,599,415,599,403,623,387,643,408,653,436,661,454,683,466,707,458,736,475,745,491,727,504,707,522,700,533,661,549,635" shape="poly">
+        </map>
+        <script>
+            $(".finland").on("click", function(e){
+                e.preventDefault();
+                alert('Finland clicked!');
+            });
+        </script>
+    </body>
+          
+</html>
