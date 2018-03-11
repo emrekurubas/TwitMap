@@ -13,5 +13,9 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "@emrekurubas",
-  "license": "MIT"
+  "license": "UNLICENSED",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:emrekurubas/TwitMap.git"
+  }
 }
