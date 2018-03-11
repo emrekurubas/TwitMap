@@ -3,12 +3,12 @@ Steps to run:
 1. Install node.js. Node Package Manager (npm) should be included.
 2. Clone or download TwitMap to a local folder in your computer.
 3. Create an application in Twitter. (See https://apps.twitter.com)
-2. Set-up your config.json with the required keys from the newly created Twitter application.
-3. In terminal
+4. Set-up your config.json with the required keys from the newly created Twitter application.
+5. In terminal
 - Run “npm install” to install required packages.
 - Run “node app.js” 
-4. Open a browser and navigate to “http://localhost:3001” 
-5. Click on one of the supported countries on the map.
+6. Open a browser and navigate to “http://localhost:3001” 
+7. Click on one of the supported countries on the map.
 
 Note: It could take some time until tweets appear in the window. You can pause and continue the streaming while the popup is open. Clicking x or a point outside the popup will close the popup and terminate the stream.
 
@@ -27,7 +27,7 @@ South Africa,
 Brazil,
 Australia
 
-Implementation:
+Implementation: 
 
 - Project contains a web-socket server, a web server and client configuration.
 - Users land on the web page and open a country for establishin a connection to the web-socket server.
