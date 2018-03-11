@@ -1,8 +1,8 @@
 {
   "name": "TwitMap",
   "version": "0.0.0",
-  "description": "Basic Map View by Using Twitter streaming APIs",
-  "main": "main.js",
+  "description": "Basic Map View by Using Twitter streaming API",
+  "main": "app.js",
   "dependencies": {
     "nconf": "^0.7.1",
     "nodejs-websocket": "^1.7.1",
