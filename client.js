@@ -17,7 +17,7 @@ var currentLocation = {};
 // Handle popup opening, use websockets to retrieve live data from webserver.
 function handleClick(e){
     e.preventDefault();
-    document.getElementById('myModal').style.display = "block";
+    document.getElementById('popup').style.display = "block";
     
     resetPopup();
     
@@ -87,13 +87,13 @@ function resetPopup() {
 
 // Handle popup closing when pressing x
 $(".close").on("click", function(e){
-    document.getElementById('myModal').style.display = "none";
+    document.getElementById('popup').style.display = "none";
     connection.close();
 });
 
 // Handle popup closing when clicking somewhere outside the popup.
 window.onclick = function(event) {
-    var modal = document.getElementById('myModal');
+    var modal = document.getElementById('popup');
     if (event.target == modal) {
         modal.style.display = "none";
         connection.close();
