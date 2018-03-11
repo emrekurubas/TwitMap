@@ -10,21 +10,21 @@ Steps to run:
 4. Open a browser and navigate to “http://localhost:3001” 
 5. Click on one of the supported countries on the map.
 
-Note: It could take some time until tweets appear in the window. You can pause and continue the streaming while the popup is open. Clicking x or a point outside the popup will close the popup and terminate the streaming.
+Note: It could take some time until tweets appear in the window. You can pause and continue the streaming while the popup is open. Clicking x or a point outside the popup will close the popup and terminate the stream.
 
 
 Supported Countries:
 
-Finland
-United States
-China
-India
-Russia
-Germany
-France
-Turkey
-South Africa
-Brazil
+Finland,
+United States,
+China,
+India,
+Russia,
+Germany,
+France,
+Turkey,
+South Africa,
+Brazil,
 Australia
 
 Implementation:
