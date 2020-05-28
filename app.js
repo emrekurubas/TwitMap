@@ -4,7 +4,7 @@ const websocket = require('./websocket.js');
 
 const port = 3001;
 
-// -------------- WEBSOCKET ---------------------
+// -------------- WEB SOCKET ---------------------
 
 websocket.start();
 
