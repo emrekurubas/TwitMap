@@ -1,5 +1,8 @@
-Example item checklist
-
+<details>
+<summary>Example item checklist</summary>
+<p>
 - [ ] Example item 1.
 - [ ] Example item 2
 - [ ] Example item 3.
+</p>
+</details>
